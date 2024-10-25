@@ -1,0 +1,90 @@
+/* Colors and fonts */
+body {
+	background-color: floralwhite;
+	color: hotpink;
+	font-family: "Lora", serif;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+	color: #433878;
+	text-justify: center;
+	font-weight: 100;
+}
+h2 {
+	color: #7E60BF;
+	font-weight: bold;
+	text-justify: justify;
+}
+
+a {
+	text-decoration: none;
+	color: #433878;
+}
+a:hover {
+	color: #7E60BF;
+}
+
+
+/* Custom design with class */
+.container {
+	 width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+	background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(245, 191, 217.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-violet {
+	background-color: #433878;
+	color: floralwhite;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-violet:hover {
+	background: pink;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
